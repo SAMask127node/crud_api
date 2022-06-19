@@ -1,0 +1,6 @@
+{
+    "ignore": ["node_modules"],
+    "watch": ["./src/server.js"],
+    "ext": "js",
+    "exec": "npm run start:dev"
+}
