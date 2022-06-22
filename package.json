@@ -25,6 +25,7 @@
     "homepage": "https://github.com/SAMask127node/crud_api#readme",
     "devDependencies": {
         "clean-webpack-plugin": "^4.0.0",
+        "cross-env": "^7.0.3",
         "eslint": "^8.18.0",
         "nodemon": "^2.0.16",
         "webpack": "^5.73.0",

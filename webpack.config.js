@@ -1,6 +1,7 @@
 import * as path from "path";
 import * as url from "url";
 import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import "dotenv/config"; 
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
@@ -26,7 +27,7 @@ const webpackConfig = {
         new CleanWebpackPlugin(),
         new webpack.DefinePlugin({
             "process.env": {
-                API_KEY: JSON.stringify(process.env.API_KEY)
+                JSON.stringify(process.env)
             }
         })
     ]
